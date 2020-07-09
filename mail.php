@@ -25,7 +25,7 @@
     {
         echo 'Your message has been sent.';
     }else{
-        echo 'failed';
+        echo 'failed':
     }
 
 ?>
