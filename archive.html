@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/nice-select.css">
   <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -42,17 +43,13 @@
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li><a href="/">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-
-
             <li><a href="archive.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="services.html">Hire Me!</a></li>
-
             <li><a href="MantripragadaSai Pavan Aditya-Resume.pdf" class="genric-btn primary-border circle" target="_blank">Resume</a></li>
           </ul>
-
         </nav><!-- #nav-menu-container -->
       </div>
     </div>
@@ -76,7 +73,165 @@
   <!-- End banner Area -->
   <!-- Main Content -->
 
-  <section class="sample-text-area">
+  <section class="portfolio-area section-gap" id="portfolio">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="menu-content pb-30 col-lg-8">
+          <div class="title text-center">
+            <h1 class="mb-10">My Latest Projects</h1>
+            <p>Take a look at my recent work.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <ul>
+          <li class="active" data-filter="*">All</li>
+          <li data-filter=".ComputerVision">Computer Vision</li>
+          <li data-filter=".NLP">NLP</li>
+          <li data-filter=".WebApps">Web Apps</li>
+          <li data-filter=".DataScience">Data Science</li>
+
+        </ul>
+      </div>
+
+      <div class="filters-content">
+        <div class="row grid" style="height:865px;">
+
+          <div class="single-portfolio col-sm-4 all ComputerVision">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/dropout.png" alt="">
+              </div>
+              <a href="https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16">
+                <h5>Don't Use Dropout</h5>
+              </a>
+              <div class="cat">Aug 14, 2018</div>
+            </div>
+          </div>
+
+
+          <div class="single-portfolio col-sm-4 all ComputerVision">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/sig4square.png" alt="">
+              </div>
+              <a href="https://towardsdatascience.com/intuit-and-implement-batch-normalization-c05480333c5b" target="_blank">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="https://towardsdatascience.com/intuit-and-implement-batch-normalization-c05480333c5b" target="_blank">
+                <h5>Batch Normalization: Implement and Intuit</h5>
+              </a>
+              <div class="cat">July 27, 2018</div>
+            </div>
+          </div>
+
+
+          <div class="single-portfolio col-sm-4 all ComputerVision">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/hucklecover2.png" alt="">
+              </div>
+              <a href="GAP">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="GAP">
+                <h5>GAP: Object Localization</h5>
+              </a>
+              <div class="cat">July 16, 2018</div>
+            </div>
+          </div>
+          <div class="single-portfolio col-sm-4 all NLP">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/applesquare.jpg" alt="">
+              </div>
+              <a href="apple">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="apple">
+                <h5>Apple Sentiment Analysis</h5>
+              </a>
+              <div class="cat">June 20, 2018</div>
+            </div>
+          </div>
+
+
+          <div class="single-portfolio col-sm-4 all NLP">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/gassquare.jpg" alt="">
+              </div>
+              <a href="toxic">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="toxic">
+                <h5>Toxic Topic Modelling</h5>
+              </a>
+              <div class="cat">June 13, 2018</div>
+            </div>
+          </div>
+
+
+          <div class="single-portfolio col-sm-4 all DataScience">
+            <div class="relative">
+              <div class="thumb">
+                <div class="overlay overlay-bg"></div>
+                <img class="image img-fluid" src="img/clustering.png" alt="">
+              </div>
+              <a href="Clustering">
+                <div class="middle">
+                  <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                </div>
+              </a>
+            </div>
+            <div class="p-inner">
+              <a href="Clustering">
+                <h5>Clustering Mental Health</h5>
+              </a>
+              <div class="cat">May 23, 2018</div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container text-right mt-10">
+      <a href="portfolio.html" class="primary-btn text-uppercase">My Projects</a>
+    </div>
   </section>
 
 
@@ -96,7 +251,7 @@
           <div class="single-footer-widget">
             <h4>About This Page</h4>
             <p class="footer-text">
-              This website was coded in HTML, CSS, Javascript, Python, PHP . It is hosted on GitHub. The code can be found <a href="https://github.com/MANTRIPRAGADA-SAI-PAVAN-ADITYA/AdityaMantripragada" target="_blank"> here.</a>
+              This website was coded in HTML, CSS, PHP and Javascript. It is hosted on GitHub. The code can be found <a href="https://github.com/MANTRIPRAGADA-SAI-PAVAN-ADITYA/AdityaMantripragada" target="_blank"> here.</a>
             </p>
 
           </div>

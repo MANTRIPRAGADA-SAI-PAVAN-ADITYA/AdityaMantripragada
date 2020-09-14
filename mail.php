@@ -1,5 +1,5 @@
 <?php
-    $to = 'mantripragadaaditya26666@gmail.com';
+    $to = 'demo@site.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
@@ -25,7 +25,7 @@
     {
         echo 'Your message has been sent.';
     }else{
-        echo 'failed':
+        echo 'failed';
     }
 
 ?>
