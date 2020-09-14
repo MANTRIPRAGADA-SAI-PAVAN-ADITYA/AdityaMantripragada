@@ -1,1 +1,1 @@
-# Aditya-Xhosan-This is my first Professional website to showcase my Educational qualifications, Positions of responsibility, Work experiences, Skills, Interests , Training's, additional information, contact details and my resume 
+This is my first Professional website to showcase my Educational qualifications, Positions of responsibility, Work experiences, Skills, Interests , Training's, additional information, contact details and my resume 
